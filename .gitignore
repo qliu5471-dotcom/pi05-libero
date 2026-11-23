@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# 训练与评测产物
+logs/
+wandb/
+checkpoints/
+*.ckpt
+*.safetensors
+
+# 数据
+data/
+datasets/
+
+# 系统
+.DS_Store
+Thumbs.db
