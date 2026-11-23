@@ -38,8 +38,11 @@
 ```
 pi05-libero/
 ├── README.md          # 本文件：目标、环境、结论
+├── EXPERIMENTS.md     # 实验设计：基准对齐 / LoRA 消融 / 真机迁移
 ├── RESULTS.md         # 实测结果与对照表
 ├── NOTES.md           # 踩坑记录（编译失败、OOM、版本冲突）
+├── tools/
+│   └── aggregate.py   # 评测日志聚合：成功率 + Wilson 95% 置信区间
 ├── reproduce/
 │   ├── finetune.sh    # 微调命令封装
 │   ├── eval.sh        # 评测命令封装
